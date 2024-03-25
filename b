@@ -11,7 +11,6 @@ rm "go$ver.linux-amd64.tar.gz"
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 go  version
-1.0
 
 cd $HOME
 rm -rf celestia-app
